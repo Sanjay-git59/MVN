@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Maven project]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-16T10:45:28 IST" name="Default suite" finished-at="2025-01-16T10:45:30 IST" duration-ms="2616">
+    <groups>
+    </groups>
+    <test started-at="2025-01-16T10:45:28 IST" name="Default test" finished-at="2025-01-16T10:45:30 IST" duration-ms="2616">
+      <class name="com.rolban.testscript.CampaignModule">
+        <test-method signature="demo()[pri:0, instance:com.rolban.testscript.CampaignModule@2d710f1a]" started-at="2025-01-16T10:45:28 IST" name="demo" finished-at="2025-01-16T10:45:30 IST" duration-ms="2542" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Maven project]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- com.rolban.testscript.CampaignModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
