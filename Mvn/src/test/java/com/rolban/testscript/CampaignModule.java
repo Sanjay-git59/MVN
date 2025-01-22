@@ -21,7 +21,6 @@ public void demo() {
 //		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 //		WebDriverWait wait=new WebDriverWait(driver, 10);
 //		wait.until(ExpectedConditions.titleContains(""));
-//		driver.get("");
 		Reporter.log("Maven project",true);
 		System.out.println(driver.getTitle());
 		driver.quit();
