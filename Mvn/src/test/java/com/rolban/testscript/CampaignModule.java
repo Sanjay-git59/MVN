@@ -17,12 +17,13 @@ public void demo() {
 //		System.setProperty("webdriver.chrome.driver", "./src/main/resources/drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.get("https://www.google.com");
 //		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 //		WebDriverWait wait=new WebDriverWait(driver, 10);
 //		wait.until(ExpectedConditions.titleContains(""));
 //		driver.get("");
 		Reporter.log("Maven project",true);
-		Actions a=new Actions(driver);
+		System.out.println(driver.getTitle());
 		driver.quit();
 }
 }
